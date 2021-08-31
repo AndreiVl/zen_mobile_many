@@ -1,0 +1,151 @@
+* {
+	text-rendering: geometricPrecision;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-smooth: always;
+}
+body {
+	/* 1 Positioning */ 
+	position: relative;
+
+	/* 2 Block model */ 
+	padding: 0;
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: normal;
+
+	/* 4 Visual */ 
+	overflow-x: hidden;
+	color: #000000;
+
+	/* 5 Animation*/ 
+
+	/* 6 Misc */
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.mobile-hiede--text {
+	/* 2 Block model */
+	display: none;
+
+	@media(min-width: 768px) {
+		/* 2 Block model */
+		display: block;
+	}
+}
+.scrolled {
+	/* 2 Block model */
+	padding-top: 62px;
+
+	@media(min-width: 586px) {
+		/* 2 Block model */
+		padding-top: 63px;
+	}
+	@media(min-width: 768px) {
+		/* 2 Block model */
+		padding-top: 93px;
+	}
+	@media(min-width: 992px) {
+		/* 2 Block model */
+		padding-top: 92px;
+	}
+}
+.objective .footer {
+	/* 2 Block model */
+	padding-top: 0;
+}
+.manuls .footer {
+	/* 2 Block model */
+	padding-top: 0;
+}
+.intro-page {
+	/* 2 Block model */
+	height: 100vh;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.intro-page__top {
+	/* 2 Block model */
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.intro-page .logo {
+	/* 2 Block model */
+	width: 100px;
+}
+.intro-page__list {
+	/* 2 Block model */
+	margin: 0;
+	padding: 0;
+
+	/* 4 Visual */
+	list-style: none;
+}
+.intro-page__item {
+	/* 2 Block model */	
+	margin-bottom: 15px;
+
+	/* 3 Typography */
+	text-align: center;
+
+	/* 4 Visual */
+	border: 1px solid #c31a1a;
+	border-bottom: 3px solid #c31a1a;
+	border-radius: 5px;
+
+	/* 4 Visual */
+	transition: all 0.4s;
+}
+.intro-page__item a {
+	/* 2 Block model */	
+	display: block;
+	padding: 12px 20px 10px 20px;
+
+	/* 3 Typography */
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
+	color: #c31a1a;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	/* 4 Visual */
+	transition: all 0.4s;
+}
+.intro-page__item:hover a {
+	/* 3 Typography */
+	color: #ffffff;
+
+	/* 4 Visual */
+	background-color: #c31a1a;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

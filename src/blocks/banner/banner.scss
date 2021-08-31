@@ -1,0 +1,190 @@
+.banner {
+	/* 2 Block model */
+	width: 100%;
+	overflow: hidden;
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+	/* 4 Visual */
+	background-image: url(../images/bg-banner.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		padding-top: 120px;
+		padding-bottom: 115px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		padding-top: 152px;
+		padding-bottom: 236px;
+	}
+}
+.banner__img {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+	max-width: 601px;
+
+	@media (min-width: 768px) {
+		/* 1 Positioning */
+		top: -13px;
+
+		/* 2 Block model */
+		margin-left: 80px;
+	}
+	@media (min-width: 992px) {
+		/* 1 Positioning */
+		top: -23px;
+
+		/* 2 Block model */
+		margin-left: 160px;
+	}
+	@media (min-width: 1200px) {
+		/* 1 Positioning */
+		top: -33px;
+
+		/* 2 Block model */
+		margin-left: 180px;
+	}
+}
+.banner__title {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	margin: 0;
+	margin-bottom: 25px;
+
+	/* 3 Typography */
+	font-family: $font-six;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 38px;
+	color: $color-white;
+
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-bottom: 35px;
+
+		/* 3 Typography */
+		font-size: 28px;
+		line-height: 40px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		margin-bottom: 40px;
+
+		/* 3 Typography */
+		font-size: 30px;
+		line-height: 42px;
+	}
+	@media (min-width: 1400px) {
+		/* 2 Block model */
+		margin-bottom: 62px;
+
+		/* 3 Typography */
+		font-size: 36px;
+		line-height: 48px;
+	}
+}
+.banner__title::before {
+	/* 1 Positioning */
+	position: absolute;
+	left: 0;
+	bottom: -8px;
+
+	/* 2 Block model */
+	display: block;
+	width: 88px;
+	height: 1px;
+
+	/* 3 Typography */
+	background-color: #ff0000;
+
+	/* 4 Visual */
+	content: "";
+	@media (min-width: 992px) {
+		/* 1 Positioning */
+		bottom: -16px;
+	}
+	@media (min-width: 1200px) {
+		/* 1 Positioning */
+		bottom: -32px;
+	}
+}
+.banner__text {
+	/* 2 Block model */
+	margin: 0;
+	max-width: 565px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
+	color: $color-white;
+
+	@media (min-width: 992px) {
+		/* 3 Typography */
+		font-size: 16px;
+		line-height: 28px;
+	}
+	@media (min-width: 1200px) {
+		/* 3 Typography */
+		font-size: 18px;
+		line-height: 30px;
+	}
+}
+.banner .lead {
+	/* 1 Positioning */
+	position: relative;
+	top: -20px;
+
+	/* 2 Block model */
+	width: 100%;
+	max-width: 710px;
+	@media (min-width: 768px) {
+		/* 1 Positioning */
+		top: -44px;
+
+		/* 2 Block model */
+		margin-left: 60px;
+	}
+	@media (min-width: 992px) {
+		/* 1 Positioning */
+		top: -54px;
+
+		/* 2 Block model */
+		margin-left: 100px;
+	}
+	@media (min-width: 1200px) {
+		/* 1 Positioning */
+		top: -97px;
+
+		/* 2 Block model */
+		margin-left: 114px;
+	}
+}
+@import "banner--1";
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

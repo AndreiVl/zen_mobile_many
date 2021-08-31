@@ -1,0 +1,232 @@
+.manual {
+  /* 2 Block model */
+  padding-top: 35px;
+  padding-bottom: 40px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-bottom: 70px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-top: 64px;
+    padding-bottom: 140px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-bottom: 189px;
+  }
+}
+.manual .text {
+  /* 2 Block model */
+  margin-bottom: 26px;
+}
+.manual__img-top {
+  /* 2 Block model */
+  display: block;
+  width: 100%;
+}
+.manual__top {
+  /* 2 Block model */
+  padding-bottom: 10px;
+}
+.manual__top h1 {
+  /* 2 Block model */
+  margin: 0;
+  margin-bottom: 19px;
+
+	/* 3 Typography */
+	font-family: $font-seven;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+  color: $color-black;
+  text-align: center;
+}
+.manual__top .title {
+  /* 2 Block model */
+  padding-bottom: 39px;
+  margin-bottom: 30px;
+}
+.manual__top .title .h2::before {
+  /* 1 Positioning */
+  bottom: -39px;
+}
+.manual__social-list {
+  /* 2 Block model */
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* 4 Visual */
+  list-style: none;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 0;
+  }
+}
+.manual__social-item a {
+  /* 2 Block model */
+  display: flex;
+
+  /* 3 Typography */
+  color: $color-red;
+
+  /* 5 Animation*/
+  transition: all 0.4s;
+}
+.manual__social-item a:hover {
+  /* 3 Typography */
+  color: #5c5c5c;
+}
+.manual__social-item .icon--facebook {
+  /* 2 Block model */
+  width: 20px;
+  height: 20px;
+}
+.manual__total {
+  /* 2 Block model */
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 25px;
+    padding-bottom: 68px;
+  }
+}
+.manual__total .total__text {
+  /* 3 Typography */
+  font-size: 20px;
+  line-height: 30px;
+}
+.manual__list {
+  /* 2 Block model */
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+
+  /* 4 Visual */
+  list-style: none;
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 26px;
+    padding-top: 6px;
+  }
+}
+.manual__item {
+  /* 2 Block model */
+  margin-bottom: 31px;
+}
+.manual__item .text {
+  /* 1 Positioning */
+  position: relative;
+}
+.manual__item span {
+  /* 2 Block model */
+  display: inline-block;
+  margin-left: 11px;
+}
+.manual__item .text::before {
+  /* 1 Positioning */
+  position: absolute;
+  top: 10px;
+  left: 0;
+
+  /* 2 Block model */
+  display: block;
+  width: 2px;
+  height: 2px;
+
+  /* 4 Visual */
+  background-color: $color-red;
+  content: '';
+}
+.manual__item:last-child {
+  /* 2 Block model */
+  margin-bottom: 0;
+}
+.manual__text-title {
+  /* 2 Block model */
+  margin: 0;
+  margin-bottom: 26px;
+  padding-top: 25px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 26px;
+	color: $color-black;
+}
+.manual__h3 {
+  /* 2 Block model */
+  margin: 0;
+  margin-bottom: 28px;
+
+	/* 3 Typography */
+	font-family: $font-third;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+  color: $color-black;
+  text-transform: uppercase;
+}
+.manual__blog {
+  /* 2 Block model */
+  margin: 0;
+  padding: 0;
+  padding-top: 21px;
+
+  /* 4 Visual */
+  list-style: none;
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-left: 81px;
+  }
+}
+.manual__blog-item {
+  /* 2 Block model */
+  margin-bottom: 40px;
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 75px;
+  }
+}
+.manual__blog-item:last-child {
+  /* 2 Block model */
+  margin-bottom: 0;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */
+  // @media(min-width: 768px) {
+
+  // }
+  // @media(min-width: 992px) {
+    
+  // }
+  // @media(min-width: 1200px) {
+    
+  // }

@@ -1,0 +1,34 @@
+section.results
+  div.container
+    div.row
+      div.col-12.col-md-7
+        div.results__info
+          +title({title: 'РЕЗУЛЬТАТЫ'})(class="title--w-144 title--mb-64")
+
+          ul.results__list
+            li.results__item
+              p Результат применения:
+                br
+                span.results__text-red +44% 
+                | ROI в привлечение новых пользователей (Сервис поиска авиабилетов)
+
+            li.results__item
+              p Результат применения:
+                br
+                span.results__text-red +195% 
+                | заказов при снижении CPO на 
+                span.results__text-red 68% 
+                | за 2 месяца в ремаркетинге пользователей (Delivery Club)
+
+            li.results__item
+              p Результат применения:
+                br
+                |Рост количества продаж от новых установок в три  раза, на протяжении трех месяцев, без увеличения CPA (Mamba)
+
+          div.results__action
+            +btn({text: 'ЗАПОЛНИТЬ БРИФ', type: 'link', url: '#modal_brief'})(class="modal-link btn--h")
+
+
+
+      div.col-12.col-md-5
+        img.results__img(src="images/img-results.jpg", alt="images")

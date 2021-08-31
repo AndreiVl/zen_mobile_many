@@ -1,0 +1,79 @@
+.technologes__top {
+  /* 2 Block model */
+  margin-bottom: 18px;
+
+  /* 3 Typography */
+  font-family: $font-four;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: normal;
+  color: $color-black;
+}
+
+.technologes__number {
+  /* 2 Block model */
+  display: inline-block;
+  margin-right: 6px;
+
+  /* 3 Typography */
+  color: $color-red;
+}
+.technologes__title {
+  /* 2 Block model */
+  display: inline-block;
+  margin: 0;
+
+  /* 3 Typography */
+  text-transform: uppercase;
+}
+.technologes__list {
+  /* 2 Block model */
+  margin: 0;
+  padding: 0;
+
+  /* 4 Visual */
+  list-style: none;
+}
+.technologes__item {
+  /* 2 Block model */ 
+  margin-bottom: 17px;
+}
+.technologes__text {
+  /* 2 Block model */
+  margin: 0;
+
+  /* 3 Typography */
+  font-size: 16px;
+  line-height: 18px;
+}
+.technologes__text span {
+  /* 1 Positioning */
+  position: relative;
+}
+.technologes__text span::before {
+  /* 1 Positioning */
+  position: absolute;
+  top: 7px;
+  left: -7px;
+  content: '';
+
+  /* 2 Block model */
+  display: block;
+  width: 2px;
+  height: 3px;
+
+  /* 4 Visual */
+  background-color: $color-red;
+
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

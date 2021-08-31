@@ -1,0 +1,80 @@
+/*
+ * Fonts
+ *
+ */
+
+$font-main: 'Raleway-Regular', sans-serif;
+$font-second: 'Raleway-Medium',  sans-serif;
+$font-third: 'Raleway-SemiBold',  sans-serif;
+$font-four: 'FuturaPT-Book',  sans-serif;
+$font-five: 'FuturaPT-Heavy',  sans-serif;
+$font-six: 'Raleway-Bold',  sans-serif;
+$font-seven: 'Raleway-Light',  sans-serif;
+
+/*
+ * Colors
+ *
+ */
+
+$color-black: #000000;
+$color-white: #ffffff;
+
+$color-red: #c31a1a;
+$color-gray: #888787;
+
+/*
+ * Grid system
+ *
+ */
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px
+);
+
+$breakpoints: (
+	xs: 0,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px,
+  xxxl: 2500px
+);
+
+/*
+ * Animation Speed
+ *
+ */
+
+$animation-speed: 0.4s;
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */
+  // @media(min-width: 768px) {
+
+  // }
+  // @media(min-width: 992px) {
+    
+  // }
+  // @media(min-width: 1200px) {
+    
+  // }

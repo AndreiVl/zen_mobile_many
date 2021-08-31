@@ -1,0 +1,134 @@
+.select {
+	/* 1 Positioning */
+	position: relative;
+}
+.select .selectize-input {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	width: 100%;
+	margin: 0;
+	padding: 21px 10px 21px 21px;
+	height: 61px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 11px;
+	color: #888787;
+
+	/* 4 Visual */
+	border: 2px solid #dadada;
+	outline: none;
+	cursor: pointer;
+	background: none;
+
+	/* 5 Animation*/
+	transition: all 0.4s;
+
+	@media(min-width: 768px) {
+		/* 3 Typography */
+		font-size: 14px;
+		line-height: 14px;
+  }
+}
+.select .option {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	width: 100%;
+	margin: 0;
+	padding: 19px 10px 12px 15px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 11px;
+	color: #888787;
+
+	/* 4 Visual */
+	border: 2px solid #dadada;
+	border-top: none;
+	outline: none;
+	cursor: pointer;
+	background: none;
+
+	/* 5 Animation*/
+	transition: all 0.4s;
+
+	@media(min-width: 768px) {
+		/* 3 Typography */
+		font-size: 14px;
+		line-height: 14px;
+  }
+}
+.select .selectize-control.single .selectize-input:after {
+	/* 1 Positioning */
+	right: 16px;
+	z-index: 1;
+
+	/* 2 Block model */
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin-top: -6px;
+
+	/* 4 Visual */
+	background-image: url(../images/icon--chevron-down.svg);
+	background-repeat: no-repeat;
+	border: none;
+}
+.select .selectize-dropdown {
+	/* 4 Visual */
+	border: 1px solid #e6e3e0;
+	border-radius: 0;
+	z-index: 110;
+}
+
+.select .selectize-dropdown-content .active {
+	/* 4 Visual */
+	background-color: #f8f8f8;
+	cursor: pointer;
+}
+
+.select .selectize-dropdown, .selectize-input, .selectize-input input {
+	/* 3 Typography */
+	font-size: 12px;
+	font-weight: normal;
+	color: $color-black;
+
+	@media(min-width: 578px) {
+		/* 3 Typography */
+		font-size: 14px;
+	}
+}
+.select .selectize-control.single .selectize-input.input-active,
+.selectize-control.single .selectize-input.input-active input {
+	/* 4 Visual */
+	cursor: pointer;
+	user-select: none;
+}
+.select .item {
+	/* 1 Positioning */
+	position: absolute;
+	z-index: 10;
+
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

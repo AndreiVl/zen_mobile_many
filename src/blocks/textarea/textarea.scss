@@ -1,0 +1,60 @@
+.textarea {
+  /* 1 Positioning */
+  position: relative;
+
+  /* 2 Block model */
+	margin: 0;
+  padding: 0;
+
+  /* 4 Visual */
+  border: 0;
+  background-color: #ffffff;
+}
+.textarea label {
+  /* 2 Block model */
+  display: block;
+  margin-bottom: 5px;
+
+  /* 3 Typography */
+  font-family: $font-second;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  color: gray;
+}
+.textarea textarea {
+  /* 1 Positioning */
+  position: relative;
+  z-index: 10;
+  
+  /* 2 Block model */
+  display: block;
+  width: 100%;
+  padding: 22px 10px 19px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  /* 3 Typography */
+  font-family: $font-second;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #888787;
+
+  /* 4 Visual */
+  border: 2px solid #dadada;
+  background: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /* 6 Misc */
+  resize: none;
+  &:focus {
+    /* 4 Visual */
+    outline: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}

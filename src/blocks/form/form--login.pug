@@ -1,0 +1,20 @@
+div.form.form--login
+	form.form__form(action="#" method="post")
+		div.form__item
+			+input({label_text: 'Email', type: 'email', name: 'email_3', placeholder: 'Электронная почта', error: 'Укажите адрес электронной почты'})(label_class='visually-hidden', class="input--error")
+		div.form__item
+			+input({label_text: 'password', type: 'password', name: 'userPassword_2', placeholder: 'Пароль', error: 'Введен неверный пароль', eye: true})(label_class='visually-hidden', class="input--error input--pass")
+		div.form__item
+			+input({label_text: 'password', type: 'password', name: 'userPassword_3', placeholder: 'Пароль', error: 'Введен неверный пароль', eye: true})(label_class='visually-hidden', class="input--error input--pass input--pass-show")
+
+		div.form__item-link
+			a.form__form-link(href="#") Забыли пароль?  
+
+		div.form__error 
+			span Пользователь не найден
+		div.forma__btn
+			+btn({text: 'ВОЙТИ', type: 'submit'})(class="btn--lg btn--h")
+
+		div.form__check
+			+checkbox({name: 'check-2'})(label_class='visually-hidden')
+			p.form__check-text Не запоминать меня

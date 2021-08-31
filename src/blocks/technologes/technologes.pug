@@ -1,0 +1,13 @@
+mixin technologes(data) 
+  div.technologes(class!=attributes.class)
+    div.technologes__top
+      p.technologes__title
+        span.technologes__number!=data.number
+        !=data.title
+
+    div.technologes__body
+      ul.technologes__list
+        - for (var i = 0; i < data.items.length; i++)
+          li.technologes__item
+            p.technologes__text
+              span!=data.items[i]

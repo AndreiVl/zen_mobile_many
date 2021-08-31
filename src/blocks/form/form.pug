@@ -1,0 +1,23 @@
+div.form
+	form.form__form(action="#" method="post")
+		div.form__item
+			+input({label_text: 'Ваше Имя', type: 'text', name: 'name_1', placeholder: 'Как Вас зовут ?', value: 'Алексей'})(label_class='visually-hidden', class="input--ok")
+		div.form__item
+			+input({label_text: 'Название компании', type: 'text', name: 'company_1', placeholder: 'Название компании'})(label_class='visually-hidden')
+		div.form__item
+			+input({label_text: 'Email', type: 'email', name: 'email_1', placeholder: 'Ваша электронная почта'})(label_class='visually-hidden')
+		div.form__item
+			+input({label_text: 'Телефон', type: 'tel', name: 'tel_1', placeholder: 'Ваш номер телефона', error: 'Укажите номер телефона'})(label_class='visually-hidden', class="input--error input--phone")
+
+		div.form__textarea
+			+textarea({name: 'message', rows: '10', placeholder: 'Кратко опишите задачу, и мы обязательно с Вами свяжемся!'})(label_class='visually-hidden')
+		div.form__check
+			+checkbox({name: 'accept'})(label_class='visually-hidden')
+			p.form__check-text Я принимаю 
+				a.form__check-link(href="#" target="_blank") Условия использования
+				|  и 
+				a.form__check-link(href="#" target="_blank") Политику конфиденциальности
+				|  MDMP
+
+		div.forma__action
+			+btn({text: 'ОТПРАВИТЬ', type: 'submit'})(class="btn--h")

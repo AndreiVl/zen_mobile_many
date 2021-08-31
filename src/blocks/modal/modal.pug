@@ -1,0 +1,12 @@
+div.modal.modal-form(id="modal_contact")
+	p.modal-call__title Request a call
+
+	form.modal-call__form(action="#" method="post")
+		label.visually-hidden(for="login") name
+		input(type="text" name="login" id="login"  placeholder="Enter your name")
+
+		label.visually-hidden(for="tel") phone
+		input(type="tel" name="tel" id="tel"  placeholder="Enter your phone number")
+
+		div.modal-call__action
+			button.modal-call__btn(type="submit") Send

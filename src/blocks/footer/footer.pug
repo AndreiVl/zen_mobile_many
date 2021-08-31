@@ -1,0 +1,74 @@
+mixin footer(data)
+	footer.footer
+		if data.footerMenu
+			div.container
+				div.row
+					div.col-12 
+						div.footer__top
+							include ../menu/menu.pug
+
+		div.footer__line
+			div.container
+				div.row
+					div.col-12
+						div.footer__body
+							div.footer__desc
+								div.footer__logo
+									a(href="/")
+										img(src="images/img-logo-bottom.png" alt="logo")
+
+								div.footer__social 
+									ul.footer__social-list
+										li.footer__social-item
+											a(href="#")
+												span.visually-hidden Facebook
+												+icon('icon--facebook')
+										li.footer__social-item
+											a(href="#")
+												span.visually-hidden Instagram
+												+icon('icon--instagram')
+										li.footer__social-item
+											a(href="#")
+												span.visually-hidden Vk
+												+icon('icon--vk')
+									ul.footer__social-list
+										li.footer__social-item
+											a(href="#")
+												span.visually-hidden Telegram
+												+icon('icon--telegram')
+										li.footer__social-item
+											a(href="#")
+												span.visually-hidden Twitter
+												+icon('icon--twitter')
+										li.footer__social-item
+											a(href="#")
+												span.visually-hidden Pinterest
+												+icon('icon--pinterest')
+
+								div.footer__contacts
+									ul.footer__contacts-list
+										li.footer__contacts-item
+											+icon('icon--map-marker')
+											div.icon-text 
+												span Москва, Краснопролетарская, 16
+
+										li.footer__contacts-item.pd-r20
+											+icon('icon--envelope')
+											a.icon-text(href="mailto:info@zenmobile.ru") info@zenmobile.ru
+
+									ul.footer__contacts-list
+										li.footer__contacts-item
+											+icon('icon--clock')
+											div.icon-text
+												span Время работы
+													br
+													|Пн - Пт - 12:00 - 20:00
+										li.footer__contacts-item.pd-r13
+											+icon('icon--phone')
+											a.icon-text(href="tel:+74999298595") +7&nbsp;499&nbsp;929-85-95
+
+								div.footer__info
+									a(href="#") Политика конфиденциальности
+									a(href="#") Условия использования
+
+							span.footer__copy @2019 ZenMobile

@@ -1,0 +1,54 @@
+div.form.form--brief
+	form.form__form(action="#" method="post")
+		div.form__item
+			+input({label_text: 'brand', type: 'text', name: 'brand', placeholder: 'Клиент (название бренда или услуги)'})(label_class='visually-hidden')
+    
+		div.form__select
+			+select({
+				name: 'Выберите продукт',
+				value: [
+					'Сайт',
+					'Мобильное приложение',
+					'Подкаст'
+				],
+				items: [
+					'Сайт',
+					'Мобильное приложение',
+					'Подкаст'
+				]
+			})
+
+		div.form__text
+			p Заказать услугу
+
+		fieldset.form__checkboxs
+			div.form__check
+				+checkbox({name: 'check-5'})(label_class='visually-hidden')
+				p.form__check-text Разработка стратегии
+			div.form__check
+				+checkbox({name: 'check-6'})(label_class='visually-hidden')
+				p.form__check-text Планирование
+			div.form__check
+				+checkbox({name: 'check-7'})(label_class='visually-hidden')
+				p.form__check-text Аудит
+			div.form__check
+				+checkbox({name: 'check-8'})(label_class='visually-hidden')
+				p.form__check-text ASO
+			div.form__check
+				+checkbox({name: 'check-9'})(label_class='visually-hidden')
+				p.form__check-text Закупка трафика
+
+		fieldset.form__contact
+			div.form__item
+				+input({label_text: 'Телефон', type: 'tel', name: 'tel_2', placeholder: 'Ваш мобильный телефон'})(label_class='visually-hidden', class="input--phone")
+			div.form__item
+				+input({label_text: 'Email', type: 'email', name: 'email_4', placeholder: 'Ваш Email'})(label_class='visually-hidden')
+
+		div.form__check.mr-b-25
+			+checkbox({name: 'check-10'})(label_class='visually-hidden')
+			p.form__check-text Я согласен с 
+				a.form__check-link(href="#" target="_blank") Политикой конфиденциальности
+				|  MDMP
+				
+		div.forma__btn
+			+btn({text: 'ОТПРАВИТЬ', type: 'submit'})(class="btn--lg btn--h")

@@ -1,0 +1,30 @@
+.icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+.icon--60 {
+	width: 50px;
+	height: 50px;
+
+	@media(min-width: 1200px) {
+		width: 60px;
+		height: 60px;
+	}
+}
+.icon--instagram {
+	width: 18px;
+	height: 18px;
+}
+.icon--youtube {
+	width: 20px;
+	height: 20px;
+}
+.icon--facebook {
+	width: 24px;
+	height: 24px;
+}
+.icon--arrow-right {
+	width: 20px;
+	height: 20px;
+}

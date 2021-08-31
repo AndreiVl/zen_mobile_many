@@ -1,0 +1,13 @@
+.link {
+	/* 3 Typography */
+	color: $color-red;
+	text-decoration: none;
+
+	/* 5 Animation*/
+	transition: all 0.4s;
+}
+.link:hover {
+	/* 3 Typography */
+	text-decoration: underline;
+	color: #5c5c5c;
+}

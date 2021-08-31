@@ -1,0 +1,123 @@
+.title {
+  /* 2 Block model */
+  margin-bottom: 35px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 45px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 55px;
+  }
+}
+.title .h2 {
+  /* 1 Positioning */
+  position: relative;
+}
+.title .h2::before {
+  /* 1 Positioning */
+  position: absolute;
+  right: 50%;
+  bottom: -15px;
+  content: '';
+
+  /* 2 Block model */
+  display: block;
+  width: 88px;
+  height: 1px;
+
+  /* 4 Visual */
+  background-color: #ff0000;
+  transform: translateX(50%);
+}
+.title--w-144 .h2::before {
+  /* 2 Block model */
+  width: 114px;
+}
+.title--mb-51 {
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 51px;
+  }
+}
+.title--mb-50 {
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 50px;
+  }
+}
+.title--mb-64 {
+  /* 2 Block model */
+  margin-bottom: 40px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 50px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 64px;
+  }
+}
+.title--mb-68 {
+  /* 2 Block model */
+  margin-bottom: 40px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 50px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 68px;
+  }
+}
+.title--mb-80 {
+  /* 2 Block model */
+  margin-bottom: 40px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 60px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 80px;
+  }
+}
+.title--bold .h2 {
+  /* 3 Typography */
+  font-family: $font-third;
+}
+.title--fz-26 .h2 {
+  /* 3 Typography */
+  font-size: 26px;
+  line-height: 36px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    font-size: 20px;
+    line-height: 30px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+.title--text-normal .h2 {
+  /* 3 Typography */
+  text-transform: none;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

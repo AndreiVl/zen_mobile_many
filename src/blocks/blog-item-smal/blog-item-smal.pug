@@ -1,0 +1,16 @@
+mixin blog-item-smal(data)
+  div.blog-item-smal
+    div.blog-item-smal__header
+      div.blog-item-smal__header-img
+        img(src="images/"+data.img, alt="images")
+      
+      div.blog-item-smal__info
+        h4.blog-item-smal__title!=data.title
+        p.blog-item-smal__desc!=data.desc
+
+    div.blog-item-smal__body
+      p.blog-item-smal__text!=data.text
+
+      a.blog-item-smal__link(href="")
+        span ЧИТАТЬ СТАТЬЮ
+        +icon('icon--arrow-right')

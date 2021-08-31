@@ -1,0 +1,15 @@
+mixin  blog-item(data)
+  div.blog-item
+    div.blog-item__img
+      img(src="images/"+data.img, alt=data.alt)
+
+    div.blog-item__info
+      span.blog-item__desc!=data.desc
+
+      p.blog-item__title!=data.title
+
+      p.blog-item__text!=data.text
+
+      a.blog-item__link(href="#")
+        span ЧИТАТЬ СТАТЬЮ
+        +icon('icon--arrow-right')

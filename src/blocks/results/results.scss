@@ -1,0 +1,120 @@
+.results {
+  /* 2 Block model */
+  width: 100%;
+  overflow: hidden;
+  padding-top: 38px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 58px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-top: 78px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 83px;
+  }
+}
+.results__info {
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 80px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-top: 100px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 130px;
+  }
+}
+.results__list {
+  /* 2 Block model */
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+
+  /* 4 Visual */
+  list-style: none;
+}
+.results__item {
+  /* 1 Positioning */
+  position: relative;
+
+  /* 2 Block model */
+  margin-bottom: 32px;
+}
+.results__item::before {
+  /* 1 Positioning */
+  position: absolute;
+  top: 15px;
+  left: -10px;
+
+  /* 2 Block model */
+  display: block;
+  width: 3px;
+  height: 3px;
+
+  /* 4 Visual */
+  background-color: $color-red;
+  content: '';
+}
+.results__item:last-child {
+  /* 2 Block model */
+  margin-bottom: 40px;
+
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    margin-bottom: 45px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    margin-bottom: 84px;
+  }
+}
+.results__item p {
+  /* 2 Block model */
+  margin: 0;
+
+  /* 3 Typography */
+	font-size: 24px;
+	line-height: 32px;
+}
+.results__text-red {
+  /* 2 Block model */
+  display: inline-block;
+  margin-right: 5px;
+
+  /* 3 Typography */ 
+  color: $color-red;
+}
+.results__action {
+  /* 2 Block model */
+  text-align: center;
+}
+.results__img {
+  /* 2 Block model */
+  width: 95%;
+  margin: 20px auto;
+  display: block;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    width: 847px;
+    margin: 0;
+  }
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

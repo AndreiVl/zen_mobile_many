@@ -1,0 +1,15 @@
+.logo {
+	/* 2 Block model */
+	display: block;
+	max-width: 35px;
+
+	@media(min-width: 768px) {
+		/* 2 Block model */
+		max-width: 74px;
+	}
+}
+.logo img {
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+}

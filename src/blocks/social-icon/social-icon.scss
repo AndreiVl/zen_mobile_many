@@ -1,0 +1,82 @@
+.social-icon {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: column;
+
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+.social-icon__list {
+	/* 2 Block model */
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	/* 4 Visual */
+	list-style: none;
+
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		width: 47%;
+		margin-bottom: 0;
+		justify-content: space-between;
+	}
+}
+.social-icon__item a {
+	/* 2 Block model */
+	display: flex;
+	width: 60px;
+	height: 60px;
+
+	/* 4 Visual */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+}
+.social-icon__item a:hover {
+	/* 4 Visual */
+	background-position: -60px 0;
+}
+.social-icon__item-fb {
+	/* 4 Visual */
+	background-image: url(../images/img-facebok.png);
+}
+.social-icon__item-ins {
+	/* 4 Visual */
+	background-image: url(../images/img-instagram.png);
+}
+.social-icon__item-tw {
+	/* 4 Visual */
+	background-image: url(../images/img-twitter.png);
+}
+.social-icon__item-tm {
+	/* 4 Visual */
+	background-image: url(../images/img-telegram.png);
+}
+.social-icon__item-vk {
+	/* 4 Visual */
+	background-image: url(../images/img-vk.png);
+}
+.social-icon__item-ln {
+	/* 4 Visual */
+	background-image: url(../images/img-linkedin.png);
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

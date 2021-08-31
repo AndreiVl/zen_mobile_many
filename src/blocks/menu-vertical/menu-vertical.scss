@@ -1,0 +1,39 @@
+.menu-vertical__list {
+	/* 2 Block model */
+	margin: 0;
+	padding: 0;
+
+	/* 4 Decor */
+	list-style: none;
+}
+.menu-vertical__item {
+	/* 2 Block model */
+	margin-bottom: 8px;
+
+	/* 3 Typography */
+	line-height: 16px;
+}
+.menu-vertical__item:last-child {
+	/* 2 Block model */
+	margin-bottom: 0;
+}
+.menu-vertical__link {
+	/* 2 Block model */
+	margin: 0;
+	margin-bottom: 8px;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 16px;
+	color: $color-gray;
+	text-decoration: none;
+
+	/* 5 Animation*/
+	transition: all 0.4s;
+}
+.menu-vertical__link:hover {
+	/* 3 Typography */
+	color: $color-black;
+}

@@ -1,0 +1,142 @@
+.modal-form {
+  /* 2 Block model */
+  width: 100%;
+  max-width: 600px;
+  padding: 30px 10px 30px 10px;
+
+  /* 4 Visual */
+  border-radius: 0;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding: 81px 66px 40px 63px;
+  }
+}
+.modal-form__header {
+   /* 2 Block model */
+   margin-bottom: 22px;
+   padding-right: 7px;
+
+  /* 3 Typography */
+  text-align: right;
+}
+.modal-form__header a {
+  /* 2 Block model */
+  display: inline-block;
+
+  /* 3 Typography */
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #c31a1a;
+  text-decoration: none;
+
+  /* 5 Animation*/
+  transition: all 0.4s;
+}
+.modal-form__header a:hover {
+  /* 3 Typography */
+  color: #5e5e5e;
+}
+.modal-form__header span {
+  /* 2 Block model */
+  display: inline-block;
+  margin-right: 8px;
+
+  /* 3 Typography */
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #888787;
+}
+.modal-form__title {
+  /* 2 Block model */
+  margin: 0;
+  margin-bottom: 29px;
+  padding-left: 7px;
+
+  /* 3 Typography */
+  font-family: $font-third;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+  color: #000000;
+  text-transform: uppercase;
+}
+.modal-form a.close-modal {
+  /* 2 Block model */
+  display: none;
+}
+.modal-form__footer span {
+  /* 2 Block model */
+  display: inline-block;
+  margin-right: 8px;
+
+  /* 3 Typography */
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #888787;
+}
+.modal-form__footer {
+  /* 2 Block model */
+  padding-top: 16px;
+  padding-left: 7px;
+}
+.modal-form__footer a {
+  /* 2 Block model */
+  display: inline-block;
+
+  /* 3 Typography */
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #c31a1a;
+  text-decoration: none;
+
+  /* 5 Animation*/
+  transition: all 0.4s;
+}
+.modal-form__footer a:hover {
+  /* 3 Typography */
+  color: #5e5e5e;
+}
+.modal--login .form__check {
+  /* 2 Block model */
+  margin-bottom: 0; 
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 49px; 
+  }
+}
+.modal--registration {
+  /* 2 Block model */
+  padding-top: 20px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 33px;
+  }
+}
+.modal--brief {
+  /* 2 Block model */
+  padding-top: 20px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 49px;
+    padding-bottom: 14px;
+  }
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

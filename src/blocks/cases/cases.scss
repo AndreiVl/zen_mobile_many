@@ -1,0 +1,235 @@
+.cases {
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 45px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-top: 80px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 103px;
+  }
+}
+.cases .title {
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    margin-bottom: 84px;
+  }
+}
+.cases__partner {
+  /* 1 Positioning */
+  position: relative;
+
+  /* 2 Block model */
+  padding-top: 30px;
+  padding-bottom: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 40px;
+  overflow: hidden;
+
+  /* 3 Typography */
+  color: #fff;
+  text-align: center;
+
+  /* 4 Visual */
+  background-image: url(../images/bg-case.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 76px
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 78px;
+    padding-bottom: 62px;
+    padding-left: 207px;
+    padding-right: 207px;
+  }
+}
+.cases__partner:hover {
+   /* 4 Visual */
+   cursor: pointer;
+}
+.cases__partner:hover  .cases__link{
+  /* 1 Positioning */
+  bottom: -23px;
+}
+.cases__partner-body {
+  /* 1 Positioning */
+  position: relative;
+  top: 0;
+
+  /* 5 Animation*/
+  transition: all 0.4s;
+}
+.cases__partner:hover .cases__partner-body {
+  /* 1 Positioning */
+  top: -5px;
+}
+
+.cases__partner--2 {
+  /* 4 Visual */
+  background-image: url(../images/bg-case-2.jpg); 
+}
+.cases__partner .h3 {
+  /* 2 Block model */
+  margin-bottom: 18px;
+
+  /* 3 Typography */
+  color: #fff;
+}
+.cases__text {
+  /* 2 Block model */
+  margin: 0;
+  margin-bottom: 31px;
+
+  /* 3 Typography */
+  font-family: $font-second;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
+.cases__list {
+  /* 2 Block model */
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 681px;
+
+  /* 4 Visual */
+  list-style: none;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.cases__item {
+  /* 2 Block model */
+  width: 100%;
+  margin-bottom: 20px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    max-width: 165px;
+    margin-bottom: 0;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    max-width: 180px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    max-width: 190px;
+  }
+}
+.cases__item:last-child {
+  /* 2 Block model */
+  margin-bottom: 0;
+}
+.cases__number {
+  /* 2 Block model */
+  display: inline-block;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  width: 100%;
+
+  /* 3 Typography */
+  font-family: $font-five;
+  font-size: 48px;
+  line-height: 52px;
+  text-align: center;
+
+  /* 4 Visual */
+  border-bottom: 1px solid $color-white;
+}
+.cases__item-info {
+  /* 2 Block model */
+  margin: 0;
+
+  /* 3 Typography */
+  font-family: $font-third;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+.cases__link {
+  /* 1 Positioning */
+  position: relative;
+  bottom: -100px;
+
+  /* 2 Block model */
+  padding-right: 28px;
+
+  /* 3 Typography */
+  font-family: $font-third;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+
+  /* 5 Animation*/
+  transition: all 0.4s;
+}
+.cases__link::before {
+  /* 1 Positioning */
+  position: absolute;
+  right: 0;
+  top: -4px;
+
+	/* 2 Block model */
+	display: block;
+	width: 19px;
+	height: 19px;
+
+	/* 4 Visual */
+	background-image: url(../images/img-cases-link.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  content: '';
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */
+  // @media(min-width: 768px) {
+
+  // }
+  // @media(min-width: 992px) {
+    
+  // }
+  // @media(min-width: 1200px) {
+    
+  // }

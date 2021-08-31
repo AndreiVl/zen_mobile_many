@@ -1,0 +1,30 @@
+div.form.form--registration
+	form.form__form(action="#" method="post")
+		div.form__item
+			+input({label_text: 'Email', type: 'email', name: 'email_2', placeholder: 'Электронная почта', error: 'Укажите адрес электронной почты'})(label_class='visually-hidden', class="input--error")
+
+		div.form__item
+			+input({label_text: 'name', type: 'text', name: 'name_2', placeholder: 'Имя'})(label_class='visually-hidden')
+		div.form__item
+			+input({label_text: 'surname', type: 'text', name: 'surname_1', placeholder: 'Фамилия'})(label_class='visually-hidden')
+		div.form__item
+			+input({label_text: 'company', type: 'text', name: 'company_2', placeholder: 'Компания'})(label_class='visually-hidden')
+
+		div.form__item
+			+input({label_text: 'password', type: 'password', name: 'userPassword_1', placeholder: 'Пароль', error: 'Разрешены только буквы, цифры и общие символы пунктуации.', eye: true})(label_class='visually-hidden', class="input--error input--pass")
+		div.form__item
+			+input({label_text: 'password-confirm', type: 'password', name: 'password-confirm_1', placeholder: 'Пароль', error: 'Введеные пароли не совпадают', eye: true})(label_class='visually-hidden', class="input--error input--pass input--pass")
+
+		div.form__check
+			+checkbox({name: 'check-3'})(label_class='visually-hidden')
+			p.form__check-text Я принимаю 
+				a.form__check-link(href="#" target="_blank") Условия использования
+				|  MDMP
+		div.form__check
+			+checkbox({name: 'check-4'})(label_class='visually-hidden')
+			p.form__check-text Я согласен с 
+				a.form__check-link(href="#" target="_blank") Политикой конфиденциальности
+				|  MDMP
+        
+		div.forma__btn
+			+btn({text: 'ЗАРЕГИСТРИРОВАТЬСЯ', type: 'submit'})(class="btn--lg btn--h")

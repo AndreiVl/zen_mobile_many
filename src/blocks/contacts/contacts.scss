@@ -1,0 +1,134 @@
+.contacts {
+  /* 2 Block model */
+  padding-top: 40px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 80px;
+  }
+  @media(min-width: 992px) {
+    /* 2 Block model */
+    padding-top: 100px;
+  }
+  @media(min-width: 1200px) {
+    /* 2 Block model */
+    padding-top: 136px;
+  }
+}
+.contacts__map {
+  /* 2 Block model */
+  padding-top: 40px;
+
+  @media(min-width: 768px) {
+    /* 2 Block model */
+    padding-top: 0;
+  }
+}
+.contacts__top {
+  /* 2 Block model */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 23px;
+
+  /* 3 Typography */
+  font-family: $font-four;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: normal;
+
+  @media(min-width: 768px) {
+    /* 3 Typography */
+    font-size: 20px;
+    line-height: 20px;
+  }
+  @media(min-width: 992px) {
+    /* 3 Typography */
+    font-size: 25px;
+    line-height: 25px;
+  }
+  @media(min-width: 1200px) {
+    /* 3 Typography */
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+.contacts__top-tel {
+  /* 3 Typography */
+  color: $color-black;
+  text-decoration: none;
+
+  /* 5 Animation*/
+  transition: all 0.4s;
+}
+.contacts__top-email {
+  /* 3 Typography */
+  color: $color-red;
+
+  /* 5 Animation*/
+  transition: all 0.4s;
+}
+.contacts__top-tel:hover {
+  /* 4 Visual */
+  opacity: 0.7;
+}
+.contacts__top-email:hover {
+  /* 3 Typography */
+  color: $color-black;
+}
+.contacts__body {
+  /* 2 Block model */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.contacts__text {
+  /* 2 Block model */
+  margin: 0;
+
+  /* 3 Typography */
+  font-family: $font-four;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: normal;
+
+  @media(min-width: 768px) {
+    /* 3 Typography */
+    font-size: 14px;
+    line-height: 18px;
+  }
+  @media(min-width: 992px) {
+    /* 3 Typography */
+    font-size: 18px;
+    line-height: 24px;
+  }
+  @media(min-width: 1200px) {
+    /* 3 Typography */
+    font-size: 23px;
+    line-height: 30px;
+  }
+}
+.contacts__bottom  {
+  /* 2 Block model */
+  margin-bottom: 21px;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */
+  // @media(min-width: 768px) {
+
+  // }
+  // @media(min-width: 992px) {
+    
+  // }
+  // @media(min-width: 1200px) {
+    
+  // }

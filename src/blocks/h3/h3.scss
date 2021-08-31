@@ -1,0 +1,22 @@
+.h3 {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-third;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 28px;
+	color: $color-black;
+
+	@media(min-width: 768px) {
+		/* 3 Typography */
+		font-size: 26px;
+		line-height: 32px;
+	}
+	@media(min-width: 1400px) {
+		/* 3 Typography */
+		font-size: 30px;
+		line-height: 36px;
+	}
+}

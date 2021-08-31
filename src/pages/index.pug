@@ -1,0 +1,37 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Zen mobile agency')
+
+	body
+		include ../blocks/mixins.pug
+
+		include ../blocks/header/header.pug
+
+		include ../blocks/banner/banner.pug
+
+		include ../blocks/system/system.pug
+
+		include ../blocks/technology/technology.pug
+
+		include ../blocks/results/results.pug
+
+		include ../blocks/cases/cases.pug 
+
+		include ../blocks/blog/blog.pug 
+
+		include ../blocks/contacts/contacts.pug
+
+		+footer({footerMenu: true})
+
+		include ../blocks/cookies/cookies.pug
+
+		include ../blocks/modal/modal--login.pug
+
+		include ../blocks/modal/modal--registration.pug
+
+		include ../blocks/modal/modal--brief.pug
+
+		include ../blocks/to-top/to-top.pug
+
+		include include/script.pug

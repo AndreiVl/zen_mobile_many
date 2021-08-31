@@ -1,0 +1,26 @@
+section.contacts(id="contacts")
+  div.container
+    div.row
+      div.col-12
+        +title({title: 'КОНТАКТЫ'})(class="title--w-144 title--mb-80 ")
+        
+    div.row
+      div.col-12.col-md-6
+        div.contacts__form
+          include ../form/form.pug
+
+      div.col-12.col-md-6
+        div.contacts__map
+          div.contacts__top
+            a.contacts__top-tel(href="tel:+74999298595") +7&nbsp;499&nbsp;929-85-95
+            a.contacts__top-email(href="mailto:info@zenmobile.ru") info@zenmobile.ru
+
+          div.contacts__body
+            p.contacts__text Москва, Краснопролетарская,16  
+            p.contacts__text Пн - Пт - 12:00 - 20:00
+
+          div.contacts__bottom 
+            include ../map/map.pug
+
+          div.contacts__social
+            include ../social-icon/social-icon.pug

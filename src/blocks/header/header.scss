@@ -1,0 +1,393 @@
+.header__top {
+	/* 2 Block model */
+	width: 0;
+	height: 5px;
+
+	/* 4 Visual */
+	background-color: $color-red;
+	border-bottom: 1px solid #d8d0d0;
+}
+.header__body {
+	/* 2 Block model */
+	display: flex;
+	align-items: center;
+	padding: 9px 0;
+	justify-content: space-between;
+
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		justify-content: flex-start;
+	}
+}
+.header__logo {
+	/* 2 Block model */
+	margin-right: 15px;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-right: 30px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		margin-right: 58px;
+	}
+}
+.header__menu {
+	/* 1 Positioning */
+	position: absolute;
+	top: 53px;
+	left: 0;
+	right: 0;
+	z-index: 300;
+
+	/* 2 Block model */
+	display: none;
+	width: 100%;
+	padding: 30px 10px 30px 10px;
+
+	/* 4 Visual */
+	background-color: #fff;
+	border-top: 1px solid #eee;
+
+	@media (min-width: 768px) {
+		/* 1 Positioning */
+		top: 92px;
+	}
+	@media (min-width: 992px) {
+		/* 1 Positioning */
+		position: static;
+		top: auto;
+		left: auto;
+		right: auto;
+
+		/* 2 Block model */
+		display: block !important;
+		margin-right: 60px;
+		padding: 0;
+		width: auto;
+
+		/* 4 Visual */
+		border: none;
+		background: none;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		margin-right: 73px;
+	}
+}
+.header__menu .menu__list {
+	/* 2 Block model */
+	align-items: center;
+}
+.header__menu .menu__item {
+	/* 2 Block model */
+	margin-right: 0;
+	padding: 10px 0;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding: 0;
+		margin-right: 45px;
+	}
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-right: 15px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		margin-right: 76px;
+	}
+}
+.header__menu .menu__item:last-child {
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-right: 0;
+	}
+}
+.header__body-right {
+	/* 2 Block model */
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex: 1 1 auto;
+}
+.header__action {
+	/* 2 Block model */
+	margin-right: 20px;
+
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-right: 70px;
+	}
+}
+.header__user {
+	/* 2 Block model */
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 90px;
+	padding-right: 2px;
+	box-sizing: border-box;
+	justify-content: space-between;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		max-width: 255px;
+	}
+}
+.header__social {
+	/* 2 Block model */
+	display: none;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		display: block;
+	}
+}
+.header__social a {
+	/* 2 Block model */
+	display: flex;
+
+	/* 3 Typography */
+	color: #000000;
+	text-decoration: none;
+
+	/* 5 Animation*/
+	transition: all 0.4s;
+}
+.header__social a:hover {
+	/* 3 Typography */
+	color: $color-red;
+}
+.header__login {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: 500;
+	color: #000000;
+	text-decoration: none;
+
+	@media (min-width: 768px) {
+		/* 3 Typography */
+		font-size: 14px;
+		line-height: 14px;
+	}
+}
+.header__login::before {
+	/* 1 Positioning */
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	content: "";
+
+	/* 2 Block model */
+	display: block;
+	width: 0;
+	height: 1px;
+
+	/* 4 Visual */
+	background-color: $color-red;
+
+	/* 5 Animation*/
+	transition: all 0.4s;
+}
+.header__login:hover::before {
+	/* 2 Block model */
+	width: 100%;
+}
+.header__languages {
+	/* 2 Block model */
+	display: flex;
+}
+.header__languages-link {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: 500;
+	color: #000000;
+	text-decoration: none;
+
+	@media (min-width: 768px) {
+		/* 3 Typography */
+		font-size: 14px;
+		line-height: 14px;
+	}
+}
+.header__languages-link-active {
+	/* 3 Typography */
+	color: $color-red;
+}
+.header__languages-link:before {
+	/* 1 Positioning */
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	content: "";
+
+	/* 2 Block model */
+	display: block;
+	width: 0;
+	height: 1px;
+
+	/* 4 Visual */
+	background-color: $color-red;
+
+	/* 5 Animation*/
+	transition: all 0.4s;
+}
+.header__languages-link:hover::before {
+	/* 2 Block model */
+	width: 100%;
+}
+.header__languages span {
+	/* 2 Block model */
+	display: inline-block;
+	margin: 0 3px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: 500;
+	color: #000000;
+
+	@media (min-width: 768px) {
+		/* 3 Typography */
+		font-size: 14px;
+		line-height: 14px;
+	}
+}
+.header__btn {
+	/* 1 Positioning */
+	position: relative;
+	z-index: 2;
+
+	/* 2 Block model */
+	display: block;
+	width: 20px;
+	height: 16px;
+	padding: 0;
+	margin-left: 20px;
+
+	/* 4 Visual */
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
+	outline: none;
+
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		display: none;
+	}
+}
+.header__btn-visual,
+.header__btn-visual::before,
+.header__btn-visual::after {
+	/* 1 Positioning */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	/* 2 Block model */
+	display: block;
+	width: 20px;
+	height: 2px;
+	margin-top: -1px;
+	margin-left: -10px;
+
+	/* 4 Visual */
+	background-color: $color-black;
+}
+.header__btn-visual::before,
+.header__btn-visual::after {
+	/* 1 Positioning */
+	content: "";
+}
+.header__btn-visual::before {
+	/* 4 Visual */
+	transform: translateY(7px);
+}
+.header__btn-visual::after {
+	/* 4 Visual */
+	transform: translateY(-7px);
+}
+.header__btn--opened .header__btn-visual,
+.header__btn--opened .header__btn-visual::before,
+.header__btn--opened .header__btn-visual::after {
+	/* 1 Positioning */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	/* 2 Block model */
+	display: block;
+	width: 20px;
+	height: 2px;
+	margin-top: -1px;
+	margin-left: -10px;
+
+	/* 4 Visual */
+	background-color: $color-black;
+	transform: rotate(-90deg);
+}
+.header__btn--opened .header__btn-visual::before,
+.header__btn--opened .header__btn-visual::after {
+	/* 1 Positioning */
+	content: "";
+
+	/* 2 Block model */
+	display: block;
+
+	/* 4 Visual */
+
+	/* 5 Animation*/
+	transition: 0.5s;
+}
+.header__btn--opened .header__btn-visual::before {
+	/* 4 Visual */
+	transform-origin: left bottom;
+	transform: rotate(45deg);
+	width: 9px;
+}
+.header__btn--opened .header__btn-visual::after {
+	/* 4 Visual */
+	transform-origin: left bottom;
+	transform: rotate(325deg);
+	width: 10px;
+}
+
+.scrolled .header {
+	/* 1 Positioning */
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 500;
+
+	/* 2 Block model */
+	width: 100%;
+
+	/* 4 Visual */
+	background-color: #ffffff;
+
+	/* 5 Animation*/
+	transition: all 0.4s;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

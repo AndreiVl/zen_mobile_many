@@ -1,0 +1,171 @@
+.input {
+	/* 1 Positioning */
+	position: relative;
+}
+.input label {
+	/* 2 Block model */
+	margin: 0;
+	padding: 0;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 16px;
+	color: #D6D7D8;
+}
+.input__input {
+	/* 1 Positioning */
+	position: relative;
+	z-index: 2;
+
+	/* 2 Block model */
+	width: 100%;
+	margin: 0;
+	padding: 21px 10px 21px 21px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 14px;
+	color: #888787;
+
+	/* 4 Visual */
+	border: 2px solid #dadada;
+	outline: none;
+	cursor: pointer;
+	background: none;
+
+	/* 5 Animation*/
+	transition: all 0.4s;
+}
+.input__input:focus {
+	/* 4 Visual */
+	border: 2px solid #1a73e8;
+}
+.input__input:active {
+	/* 4 Visual */
+	border: 2px solid #1a73e8;
+}
+
+.input__placeholder {
+	/* 1 Positioning */
+	position: absolute;
+	top: 24px;
+	left: 22px;
+	z-index: 1;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 14px;
+	color: #888787;
+
+	/* 4 Visual */
+	user-select: none;
+
+	/* 5 Animation*/
+	transition: all 0.2s ease;
+}
+.cool-input__input_filled + .input__placeholder,
+.input__input:focus + .input__placeholder {
+	/* 1 Positioning */
+	top: -5px;
+	left: 15px;
+	z-index: 3;
+
+	/* 2 Block model */
+	padding: 0 6px;
+
+	/* 3 Typography */
+	font-size: 12px;
+	line-height: 12px;
+	color: #1a73e8;
+
+	/* 4 Visual */
+	background-color: #ffffff;
+}
+.input__error {
+	/* 1 Positioning */
+	position: absolute;
+	bottom: -19px;
+	left: 9px;
+
+	/* 2 Block model */
+	display: none;
+	padding-left: 21px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: normal;
+	color: #d93025;
+}
+.input__error::before {
+	/* 1 Positioning */
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	/* 2 Block model */
+	display: block;
+	width: 12px;
+	height: 12px;
+
+	/* 4 Visual */
+	background-image: url(../images/icon--error.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	content: '';
+}
+
+.input--pass .input__input {
+	/* 2 Block model */
+	padding-right: 86px;
+}
+.input__eye {
+	/* 1 Positioning */
+	position: absolute;
+	top: 21px;
+	right: 50px;
+	z-index: 10;
+
+	/* 2 Block model */
+	width: 24px;
+	height: 20px;
+
+	/* 4 Visual */
+	background-image: url(../images/icon--eye-slash.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+@import 'input--ok';
+@import 'input--error';
+@import 'input--pass-show';
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */
+  // @media(min-width: 768px) {
+
+  // }
+  // @media(min-width: 992px) {
+    
+  // }
+  // @media(min-width: 1200px) {
+    
+  // }

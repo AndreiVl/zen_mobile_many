@@ -1,0 +1,51 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Zen mobile agency')
+
+	body.manuls
+		include ../blocks/mixins.pug
+
+		header.header
+			div.header__top 
+				div.header__indicator
+
+			div.container
+				div.row.align-items-center
+					div.col-12
+						div.header__body
+							div.header__logo
+								include ../blocks/logo/logo.pug 
+
+							div.header__body-right
+								div.header__action
+									+btn({text: 'СВЯЗАТЬСЯ С НАМИ'})(class="btn--no-border")
+
+								div.header__user
+									div.header__social
+										span.visually-hidden feecbook 
+										a(href="#")
+											+icon('icon--facebook')
+
+									a.header__login.modal-link(href="#modal_login") ВОЙТИ
+
+									div.header__languages
+										a.header__languages-link(href="#") EN
+										span |
+										a.header__languages-link.header__languages-link-active(href="#") RU
+
+		include ../blocks/manual/manual.pug
+
+		+footer({footerMenu: false})
+
+		include ../blocks/cookies/cookies.pug
+
+		include ../blocks/modal/modal--login.pug
+
+		include ../blocks/modal/modal--registration.pug
+
+		include ../blocks/modal/modal--brief.pug
+
+		include ../blocks/to-top/to-top.pug
+
+		include include/script.pug

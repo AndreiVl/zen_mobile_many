@@ -1,0 +1,25 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Zen mobile agency')
+
+	body
+		include ../blocks/mixins.pug
+		div.intro-page
+			div.container
+				div.row.justify-content-center
+					div.col-12.col-lg-6
+						div.intro-page__top
+							include ../blocks/logo/logo.pug 
+
+						ul.intro-page__list
+							li.intro-page__item
+								a(href="index" target="_blank") home
+
+							li.intro-page__item
+								a(href="case" target="_blank") case
+
+							li.intro-page__item
+								a(href="manual" target="_blank") manual
+
+		include include/script.pug
